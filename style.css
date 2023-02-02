@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 1024px;
+  width: 1440px;
+  position: absolute;
+  left: 50%;
+  margin-left: -720px;
+}
+
+.bg-picture {
+  position: relative;
+  background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 100%;
+}
+
+:link {
+  color: white;
+}
+
+.photo-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.form-side {
+  background-color: white;
+}
