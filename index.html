@@ -4,21 +4,90 @@
     <meta charset="UTF-8">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="./style.css">
-    lin
     <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <div class="bg-picture">
+        <div class="bg-picture-box">
             <div class="photo-caption">Photo by <a href="https://unsplash.com/es/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
             <div class="logo-box">
                 <img id="odin-picture" src="./images/odin-lined.png" alt="odin-picture">
                 <div id="odin-text">Odin</div>
             </div>
         </div>
-        <div class="form-side"></div>
-    </div>
-    
-  
+        <div class="form-box">
+            <div id="top-right">
+                <div class="top-text">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <br>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+            </div>
+            <div id="center-right">
+                <p id="center-right-text">Let's do this!</p>
+                <table class="form-table">
+                    <form action="#" method="post" class="form">
+                        <tr>
+                            <td class="table-row">
+                                <label class="form-label" for="first_name">FIRST NAME</label>
+                            </td>
+                            <td>
+                                <label class="form-label" for="last_name">LAST NAME</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="form-input" type="text" id="first_name">
+                            </td>
+                            <td>
+                                <input class="form-input" type="text" id="last_name">
+                            </td>
+                        </tr>                          
+                        <tr>
+                            <td>
+                                <label class="form-label" for="email">EMAIL</label>
+                            </td>
+                            <td>
+                                <label class="form-label" for="phone_number">PHONE</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="form-input" type="email" id="email">
+                            </td>
+                            <td>
+                                <input class="form-input" type="tel" id="phone_number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="form-label" for="password">PASSWORD</label>
+                            </td>
+                            <td>
+                                <label class="form-label" for="password_confrim">CONFRIM PASSWORD</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="form-input" type="password" id="password">
+                            </td>
+                            <td>
+                                <input class="form-input" type="password" id="password_confrim">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="submit-btn" type="submit">Create Account</button>
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+            <div id="bottom-right">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
